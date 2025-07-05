@@ -28,6 +28,7 @@ Hello! I am a Dota 2 player. My persistence, endurance and large library of know
 ---
 ## Code Example:
 ```console.log('Hello, World!');```
+
 ---
 ## Education:  
 * Department of Clinical Psychology 
