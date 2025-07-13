@@ -7,15 +7,17 @@ body {
 }
 
 header {
-    border: 1px solid red;
+    
+    background-color: #c1e9e7;
 }
 
 main {
-    border: 1px solid red;
+    
 }
 
 footer {
-    border: 1px solid red;
+    
+    background-color: #c1e9e7;
 }
 
 body {
@@ -53,6 +55,8 @@ html {
 }
 
 .nav-link {
+  font-size: 25px;
+  text-decoration: none;
   transition: 0.3s;
 }
 
@@ -82,18 +86,18 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 17px;
+  font-weight: 500;
   line-height: 1.5;
-  color: #4d2323;
+  color: #000000;
 }
 
 .section-title {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #829985;
+  color: #5689a7;
 }
 
 .link {
@@ -106,3 +110,37 @@ body {
   color: #5d7260;
 }
 
+.date {
+  font-size: 80px;
+  color:black;
+}
+
+code {
+   background: #c1e9e7;
+   padding: 2px 5px;
+   border-radius: 3px;
+   font-family: monospace;
+}
+
+.circle-avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3498db;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+
+  .pl {
+    text-decoration: none;  
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  .section {
+   padding: 30px;
+  }
+
+  
