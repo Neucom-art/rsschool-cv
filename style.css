@@ -11,9 +11,7 @@ header {
     background-color: #c1e9e7;
 }
 
-main {
-    
-}
+
 
 footer {
     
@@ -58,20 +56,15 @@ html {
   font-size: 25px;
   text-decoration: none;
   transition: 0.3s;
+  color: #ffffff;
 }
 
-.section-item a {
-  color: #829985;
-  text-decoration: none;
-  transition: color 0.5s;
-}
-.section-item a:hover {
-  color: #4d2323;
-}
+
 
 .main-container {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .section {
@@ -134,7 +127,11 @@ code {
   .pl {
     text-decoration: none;  
   }
-
+  
+  .pl:hover { 
+  text-decoration: underline;
+  color: rgb(255, 0, 119); 
+}
   .italic {
     font-style: italic;
   }
@@ -143,4 +140,9 @@ code {
    padding: 30px;
   }
 
-  
+ 
+.nav-item a:hover {
+  transition: 0.3s; 
+  color: #0dadc2;
+}
+
