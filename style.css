@@ -106,3 +106,14 @@ body {
   color: #5d7260;
 }
 
+.date {
+  font-size: 80px;
+  color:black;
+}
+
+code {
+   background: #c1e9e7;
+   padding: 2px 5px;
+   border-radius: 3px;
+   font-family: monospace;
+}
